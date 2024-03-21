@@ -10,7 +10,8 @@ a {
 
 .container {
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 .row {
@@ -18,21 +19,22 @@ a {
     flex-wrap: wrap;
 }
 
+.dotted {
+    border: dotted 2px;
+}
+
 /* HEADER */
 
 header {
     background-color: lightskyblue ;
-    padding: 10px 0;
 }
 
-.col-10 {
-    width: 10%;
-    border: dotted 2px;
+.col-15 {
+    width: 15%;
 }
 
-.col-80 {
-    width: 80%;
-    border: dotted 2px;
+.col-70 {
+    width: 70%;
     text-align: center;
 }
 
@@ -47,4 +49,57 @@ header {
 .orange {
     background-color: orange;
 }
+
+/* MAIN */
+
+
+/* SECONDA SEZIONE */
+
+.blue-bg {
+background-color: rgb(7, 7, 136);
+}
+
+.height-350 {
+    height: 350px;
+}
+
+.col-75{
+    width: 75%;
+    background-color: rgb(201, 91, 211);
+    height: 290px;
+    margin: 0px auto;
+}
+
+/* TERZA SEZIONE */
+
+.height-390{
+    height: 390px;
+}
+
+.col-30{
+    width: 30%;
+    height: 340px;
+    background-color: pink;
+}
+
+.azure-bg {
+    background-color: rgb(71, 194, 243);
+}
+
+/* QUARTA SEZIONE */
+
+.grey-bg {
+    background-color: rgb(206, 201, 201) ;
+}
+
+/* QUINTA SEZIONE */
+
+.col-100 {
+    width: 100%;
+    height: 650px;
+    background-color: green;
+}
+
+/* SESTA SEZIONE */
+
 
