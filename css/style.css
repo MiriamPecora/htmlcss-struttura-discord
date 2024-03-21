@@ -4,15 +4,47 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* HEADER */
 
 header {
-    background-color: aqua;
+    background-color: lightskyblue ;
     padding: 10px 0;
-    
 }
-.container {
-    width: 1200px;
-    background-color: black;
-    height: 50px;
+
+.col-10 {
+    width: 10%;
+    border: dotted 2px;
 }
+
+.col-80 {
+    width: 80%;
+    border: dotted 2px;
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.height-25{
+    height: 25px;
+}
+
+.orange {
+    background-color: orange;
+}
+
